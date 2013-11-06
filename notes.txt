@@ -1,0 +1,6 @@
+expecting an "object" "geometries" and "materials" properties
+
+So, we're serializing a THREE.Mesh with geometry, material
+(putting it in an {object: ...})
+
+But when we deserialize, we get an Object3D instead

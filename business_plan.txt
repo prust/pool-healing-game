@@ -1,0 +1,22 @@
+Phase 1: focuses entirely on spaceship design.
+Phase 2: starts to get into racing -- at first without obstacles or much scenery at all.
+Phase 3: gets into weapons and battles and fight/racing.
+Phase 4: gets into level design / world design / battlestation design.
+
+Phase 1:
+The placement of engines determines banking ability
+The number of engines determines thrust ability
+There are also style points, based on style competitions
+The number of bricks determines the weight
+
+Phase 3:
+The number and style of weapons
+The number and style of defensive measures
+
+Phase 2:
+You can race with your own ship, or -- for a cheap? rental price, or a bidding system -- you can race with a better ship that someone else has built.
+You can earn some money by winning races. You can earn some money by having others rent your ship for the races.
+
+Phase 1:
+You earn the most money from having a popular ship, starred by others, highly rated by others. Bought/rented by others? You can produce a certain number? In a variety of color schemes?
+

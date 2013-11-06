@@ -1,0 +1,71 @@
+<!doctype html>
+<html>
+<head>
+<title>Three.js Test</title>
+<style>
+  body { margin: 0 }
+  #header { padding: 3px 8px }
+</style>
+<script src="three.js"></script>
+<script src="node_modules/tween.js/index.js"></script>
+<script src="EditorControls.js"></script>
+<script src="OrbitControls.js"></script>
+</head>
+<body>
+<div id="header">
+  <label>Color: <select id="color">
+    <option value="C0C0C0" style="color: #C0C0C0">Light Gray</option>
+    <option value="808080" style="color: #808080">Dark Gray</option>
+    <option value="FF0000" style="color: #FF0000">Red</option>
+    <option value="0000FF" style="color: #0000FF">Blue</option>
+    <option value="0000A0" style="color: #0000A0">Dark Blue</option>
+    <option value="000000" style="color: #000000">Black</option>
+    <option value="FFFFFF" style="color: #FFFFFF">White</option>
+    <option value="FFFF00" style="color: #FFFF00">Yellow</option>
+    <option value="A52A2A" style="color: #A52A2A">Brown</option>
+    <option value="008000" style="color: #008000">Green</option>
+    <option value="FFA500" style="color: #FFA500">Orange</option>
+    <option value="800080" style="color: #800080">Purple</option>
+    <option value="FFDCB2" style="color: #FFDCB2">Skin</option>
+  </select></label>
+  <label>Type: <select id="type">
+    <option>Brick (2x4)</option>
+    <option>Half Brick (2x2)</option>
+    <option>Double (1x2)</option>
+    <option>Single (1x1)</option>
+    <option>1x3</option>
+    <option>1x4</option>
+    <option>1x6</option>
+    <option>1x8</option>
+    <option>1x12</option>
+    <option>1x16</option>
+    <option>2x3</option>
+    <option>2x4</option>
+    <option>2x6</option>
+    <option>2x8</option>
+    <option>2x12</option>
+    <option>2x16</option>
+    <option>Circle 1x1</option>
+    <option>Circle 2x2</option>
+    <option>Sphere 1x1</option>
+    <option>Sphere 2x2</option>
+  </select></label>
+  <label><select id="thin">
+    <option>Thin</option>
+    <option>Thick</option>
+  </select></label>
+  <button id="create"><u><b>C</b></u>reate</button>
+  <button id="rotate">Rotate</button>
+  <input type="text">
+  <button id="save">Save</button>
+  <button id="load">Load</button>
+</div>
+<div id="container"></div>
+<script src="zepto-min.js"></script>
+<script src="MaterialExporter.js"></script>
+<script src="GeometryExporter.js"></script>
+<script src="BufferGeometryExporter.js"></script>
+<script src="ObjectExporter.js"></script>
+<script src="test3.js"></script>
+</body>
+</html>

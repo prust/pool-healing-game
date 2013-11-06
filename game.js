@@ -222,7 +222,7 @@ function angleBetweenPts(pt1, pt2) {
 function load(callback) {
   var loader = new ObjectLoader();
   var name = $('input').val();
-  loader.load('/levels/' + name + '.json', function(obj) {
+  loader.load('levels/' + name + '.json', function(obj) {
     // if (!group.children.length) {
     //   scene.remove(group);
     //   group = obj;
@@ -293,7 +293,7 @@ load(function() {
 });
 
 function loadFaces(name, face_name) {
-  var texture = THREE.ImageUtils.loadTexture('/levels/face-' + face_name + '.jpg', {}, function() {
+  var texture = THREE.ImageUtils.loadTexture('levels/face-' + face_name + '.jpg', {}, function() {
     //renderer.render(scene, camera);
   });
   texture.wrapS = THREE.RepeatWrapping;//texture.wrapT = THREE.ClampToEdgeWrapping;
